@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Whether</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="containar">
+      <div class="header">
+       </div>
+      <div class="search-box">
+        <input type="text" placeholder="Enter our location" class="inputbox">
+        
+        <button  class="fa-solid fa-magnifying-glass" id="searchbtn"></button>
+       
+    </div>
+
+      
+    <div class="weather-body">
+      <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="Weather Img" 
+      class="weather-img">
+      <div class="weather-box">
+        <p class="temperature">0<sup>°C</sup></p>
+        <p class="description">
+          Light Rain
+        </p>
+      </div>
+      <div class="weather-details">
+        <div class="himidity">
+          <i class="fa-solid fa-droplet" style="color: #6AD4DD;margin-right: 5px;"></i>
+          <div class="text">
+            <span id="humidity">0 %</span>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="wind">
+          <i class="fa-solid fa-wind" style="color: #76885B;margin-right: 5px;"></i>
+          <div class="text">
+            <span id="wind-speed">0 Km/Hour</span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+
+
+        
+      </div>
+    </div>
+      </div>
+    
+
+  <script src="script.js"></script>
+</body>
+
+</html>
