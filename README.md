@@ -1,2 +1,2 @@
 # weather-check
-Use API use Weather check
+Use API based Weather check webpage
